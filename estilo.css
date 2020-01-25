@@ -1,0 +1,311 @@
+
+/* COLOR CORPORATIVO */
+/* #FDBE07; */
+
+/* TIPOGRAFIA GOOGLE */
+/* font-family: 'Lato', sans-serif; */
+
+/* ICONOS */
+/* ion-social-apple */
+/* ion-social-google */
+/* ion-social-windows */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+html,body{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.boton{
+    background-color: #FDBE07;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    display:inline-block;
+    box-shadow: 2px 2px 2px #3333333f;
+    margin: 20px 0px;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 3rem;
+    color: #FDBE07;;
+}
+
+h5{
+    font-size: 1.5rem;
+    color: rgb(116, 112, 112);
+}
+
+h6{
+    font-size: 1.25rem;
+    color: rgb(116, 112, 112);
+}
+
+p{
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+header#header{
+    width: 100%;
+    min-height: 100vh;
+    background:lightskyblue url("../img/pattern-bg.png") no-repeat center center / cover;
+    
+}
+
+div.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+}
+
+div.texto{
+    width: 50%;
+    margin-right: 100px;;
+}
+div.texto div img{
+    width: 80px;
+}
+div.texto h1{
+    margin: 20px 0px;
+}
+
+div.texto p{
+
+    line-height: 140%;
+}
+div.texto a{
+    margin: 20px 0px;
+}
+
+div.rrss{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+div.rrss span{
+    font-size: 1.5rem;
+}
+
+
+section#trabajo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#trabajo:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #8a8888ea;
+    margin-top: 100px;
+}
+
+section#trabajo h2{
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+}
+
+section#trabajo p{
+    width: 100%;
+    text-align: center;
+    margin:25px;
+}
+section#trabajo article{
+    width: 20%;
+    text-align: center;
+}
+
+
+section#landing{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section#landing:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #8a8888ea;
+    margin-top: 50px;
+}
+
+
+section#landing article{
+    width: 50%;
+    display: block;
+    margin-left: 30px;
+    padding: 0px 70px;
+}
+
+section#landing article h3{
+    margin: 20px 0px;
+}
+
+section#multiplataforma{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+section#multiplataforma:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #8a8888ea;
+    margin-top: 50px;
+}
+
+section#multiplataforma article{
+    width: 50%;
+    display: block;
+    margin-right: 30px;
+    padding: 0px 70px;
+    
+}
+
+section#multiplataforma h3{
+    margin: 20px 0px;
+}
+
+section#descargas{
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    background-color: rgb(233, 230, 230);
+}
+
+section#descargas:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #8a8888ea;
+    margin-top: 50px;
+}
+section#descargas h4{
+    padding: 50px 0px;
+}
+
+section#descargas h4+p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section#subscribir{
+    width: 100%;
+    min-height: 150px;
+   text-align: center;
+}
+
+section#subscribir:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #8a8888ea;
+    margin-top: 50px;
+}
+
+section#subscribir h5{
+    margin-top: 50px ;
+}
+
+section#subscribir form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#subscribir form input#email{
+    width: 500px;
+    height: 25px;
+}
+
+section#subscribir form input#boton{
+    width: 500px;
+    background-color: #FDBE07;
+    color: white;
+    padding: 5px 20px;
+    margin: 20px 0px;
+    border: 0;
+}
+
+section#app{
+    width: 100%;
+    min-height: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    background-color: rgb(233, 230, 230);
+}
+
+section img{
+    margin: 30px 0px;
+}
+
+section#app p{
+    margin: 30px 0px;
+}
+
+section#app div.rrss2{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+section#app div.rrss2 span{
+    font-size: 3rem;
+}
+
+footer#footer{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer#footer small span{
+    text-decoration: underline;
+}
